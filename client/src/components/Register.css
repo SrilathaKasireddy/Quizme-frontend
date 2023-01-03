@@ -1,0 +1,101 @@
+
+ .link{
+    margin-left:  44%;
+    margin-top: 10px;
+    
+ }
+.heading{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: 2rem;
+    color: #202082;
+    text-align: center;
+}
+
+.registerForm{
+    margin-top: 3%;
+    width: 600px;
+    /* align to center horizontally */
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    border-radius: 10px;
+    /* box shadow */
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    /* margin-bottom: 10%; */
+}
+
+.registerForm h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    color: #000;
+    text-align: center;
+}
+
+.registerForm label{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    color: rgb(34, 33, 33);
+    margin-left: 50px;
+}
+
+.registerForm input{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    color: rgb(34, 33, 33);
+    text-align: left;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    width:70%;
+    box-shadow: inset 0px 0px 10px rgba(48, 47, 47, 0.2);
+    margin-left: 50px;
+    margin-bottom: 20px;
+    /* background-color: rgb(240, 238, 238); */
+}
+
+.registerForm button{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(32,32,130);
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40%;
+    
+
+}
+
+
+/* .registerForm a{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+    color: black;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 20px;
+} */
+
+/* .registerForm input:focus{
+    outline: none;
+} */
+
+.registerForm .error{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4rem;
+    color: rgb(238, 56, 56);
+    text-align: left;
+    margin-left: 5px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+ 
+Link{
+
+    margin-left: 20px;
+}
