@@ -63,7 +63,7 @@ function Quiz() {
     });
     score = score + myScore;
 
-    const req = await fetch("http://localhost:5000/api/result", {
+    const req = await fetch("https://quizme-bkend.onrender.com/api/result", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
