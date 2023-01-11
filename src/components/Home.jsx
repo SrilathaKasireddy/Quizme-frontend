@@ -91,7 +91,19 @@ function Home() {
       ) : (
         <div>
           <h1 className="heading"> Quiz App </h1>
+          <div className="btns">
+            <button
+              className="logout"
+              onClick={() => {localStorage.removeItem("token");
+              navigate("/login")}}
+            >
+              Logout
+            </button>
+            <button className="history" onClick={viewHistory}>View History</button>
+            </div>
+
           <p className="heading2">Let's Start a new Quiz</p>
+          
           <form className="form" onSubmit={handleSubmit}>
             <label htmlFor="category">Select Category</label>
             <br />
@@ -129,16 +141,7 @@ function Home() {
             </button>
             {error && <div className="error">{errorMsg}</div>}
           </form>
-          <div className="btns">
-            <button
-              className="logout"
-              onClick={() => {localStorage.removeItem("token");
-              navigate("/login")}}
-            >
-              Logout
-            </button>
-            <button className="history" onClick={viewHistory}>View History</button>
-            </div>
+          
         </div>
       )}
     </div>
